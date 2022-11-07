@@ -1,21 +1,92 @@
-<table border='1' cellpadding="0" cellspacing="30px">
-   <tr class="dong">
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      
+        <title>Tính GPA</title>
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Favicons -->
+        <link href="assets/img/favicon.png" rel="icon">
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      
+        <!-- Vendor CSS Files -->
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      
+        <!-- Template Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+      
+        <!-- =======================================================
+        * Template Name: Vesperr - v4.9.1
+        * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+        * Author: BootstrapMade.com
+        * License: https://bootstrapmade.com/license/
+        ======================================================== -->
+       </head>
+<body>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+  
+      <div class="logo">
+        <h1><a href="index.html">Kademy</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div> 
+  
+      <nav id="navbar" class="navbar">
+        <ul>
+  
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about" >Giới Thiệu</a></li>
+          <a href="khtn.html" taget"_blank">Khoa Học Tự Nhiên</a>
+          <a href="thi-nghiem.html" taget"_blank">Thí Nghiệm</a>
+          <a href="goc-hoc-sinh.html" taget"_blank">Góc Học Sinh</a>
+          <a href="tbm.html" taget"_blank">Tính GPA</a>
+         <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li> -->
+          
+          <li><a class="nav-link scrollto" href="#contact">Liên Hệ</a></li>
+          <li><a class="getstarted scrollto" href="#about">Tìm Hiểu Thêm</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+  
+    </div>
+  </header><!-- End Header -->
+  
+<section>
+
+ <table border='1' cellpadding="20" cellspacing="500000px">
+   <tr class="dong"
     <td class="cot">TB HK1</td>
     <td class="cot">
-     <input type='text' value="" name='diem1' id='diem1' placeholder="Nhập điểm TB HK1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK1'"/>
+     <input type='text' value="" name='diem1' id='diem1' placeholder="Nhập GPA KÌ 1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK1'"/>
     </td>
    </tr>
    <tr class="dong">
-    <td class="cot">TB HK2</td>
     <td class="cot">
-     <input type='text' value="" name='diem2' id='diem2' placeholder="Nhập điểm TB HK2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK2'"/>
+     <input type='text' value="" name='diem2' id='diem2' placeholder="Nhập GPA KÌ 2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK2'"/>
     </td>
    </tr>
- 
    <tr class="dong">
     <td class="cot">Điểm TB</td>
     <td class="cot">
-     <input type='text' value="" name='dtb' id='dtb'/>
+     <input type='text' value="" name='dtb' id='dtb'  placeholder="Chưa xác định" />
     </td>
    </tr>
    <tr class="dong">
@@ -29,4 +100,89 @@
      <input type="button" value='Xếp loại' name="btnXeploai" id='btnXeploai' onclick="dtb.value=Tinhdiemtb()" />
     </td>
    </tr> 
- </table>
+  </table>
+</section> 
+<section id="about" class="about">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Thông tin về việc xếp loại</h2>
+      </div>
+
+      <div class="row content">
+        <a href="https://luatvietnam.vn/giao-duc/thong-tu-22-2021-tt-bgddt-207846-d1.html" taget"_blank">Thông tư THCS - THPT (GDPT-2006)</a>
+      </div>
+
+    </div>
+  </section>
+ 
+ </body> 
+ <script>
+    function Tinhdiemtb()
+{
+ var x1=document.getElementById('diem1');
+ var x2=document.getElementById('diem2');
+
+ if(x1.value=='' && x2.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị vào ô nhập liệu');
+  }
+ else if(x1.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị ô nhập liệu thứ 1');
+ }
+ else if(x2.value=='')
+ {
+  alert('Bạn đã nhập thiếu giá trị ô nhập liệu thứ 2');
+ }
+ else if(isNaN(x1.value)&&isNaN(x2.value))
+ {
+  alert('Kí tự bạn nhập không phải là số hoặc sai định dạng (a.b)');  
+ }
+ else if(isNaN(x1.value) )
+ {
+  alert('Kí tự bạn nhập không phải là số hoặc sai định dạng (a.b)');  
+ }
+  else if(isNaN(x2.value))
+ {
+  alert('Kí tự bạn nhập không phải là số hoặc sai định dạng (a.b)');  
+ }
+ var tb=document.getElementById('dtb');
+ tb=(parseFloat(x1.value)+parseFloat(x2.value)*2)/3;
+ var tbfix=tb.toFixed(1);//Lấy 2 số thập phân sau dấu phẩy và làm tròn
+ var xltb=document.getElementById('xeploai');
+ if(tbfix>=9)
+ {
+  xltb.innerText='Xuất Sắc ( Đối với hệ GDPT2018) hoặc Giỏi ( Đối với GDPT2006 ) ';
+ }
+ else if(tbfix>=8)
+ {
+  xltb.innerText='Giỏi';
+ }
+ else if(tbfix>=6.5)
+ {
+  xltb.innerText='Khá';
+ }
+ else if(tbfix>=5)
+ {
+  xltb.innerText='Trung bình';
+ }
+ else if(tbfix>=2.9)
+ {
+    xltb.innerText='Yếu'; 
+ }
+ else xltb.innerText='Kém';
+ return tbfix;
+}
+ </script>
+ <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+ <script src="assets/vendor/aos/aos.js"></script>
+ <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+ <script src="assets/vendor/php-email-form/validate.js"></script>
+
+ <!-- Template Main JS File -->
+ <script src="assets/js/main.js"></script>
+ </html> 
