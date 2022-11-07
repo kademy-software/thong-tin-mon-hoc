@@ -13,6 +13,8 @@ Sửa “Thí Nghiệm Trường Trung Học Cơ Sở Lê Hồng Phong - >Thí n
 
 [MỚI] Tính GPA theo công thức của Bộ Giáo Dục và Đào Tạo.
 
+[MỚI] Thêm tính năng cho phép học sinh làm kiểm tra/ thi cử ( GV liên hệ Admin trường ).
+
 [GIỮ NGUYÊN] Tính năng Góc Học Sinh.
 
 Bổ sung nền nhạc cho trang index và sửa đổi một số lỗi nhỏ. 
