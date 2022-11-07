@@ -1,0 +1,32 @@
+<table border='1' cellpadding="0" cellspacing="30px">
+   <tr class="dong">
+    <td class="cot">TB HK1</td>
+    <td class="cot">
+     <input type='text' value="" name='diem1' id='diem1' placeholder="Nhập điểm TB HK1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK1'"/>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td class="cot">TB HK2</td>
+    <td class="cot">
+     <input type='text' value="" name='diem2' id='diem2' placeholder="Nhập điểm TB HK2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập điểm TB HK2'"/>
+    </td>
+   </tr>
+ 
+   <tr class="dong">
+    <td class="cot">Điểm TB</td>
+    <td class="cot">
+     <input type='text' value="" name='dtb' id='dtb'/>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td class="cot">Xếp loại</td>
+    <td class="cot" ><label id='xeploai' style="font-weight: bold;color:red"></label>
+     
+    </td>
+   </tr>
+   <tr class="dong">
+    <td colspan='2' class="cot">
+     <input type="button" value='Xếp loại' name="btnXeploai" id='btnXeploai' onclick="dtb.value=Tinhdiemtb()" />
+    </td>
+   </tr> 
+ </table>
