@@ -13,8 +13,9 @@ Sửa “Thí Nghiệm Trường Trung Học Cơ Sở Lê Hồng Phong - >Thí n
 
 [MỚI] Tính GPA theo công thức của Bộ Giáo Dục và Đào Tạo.
 
-[MỚI] Thêm tính năng cho phép học sinh làm kiểm tra/ thi cử ( GV liên hệ Admin trường ).
+[MỚI] Thêm tính năng cho phép học sinh làm kiểm tra/ thi cử 
 Giáo viên truy cập đường liên kết : https://kademy-software.github.io/he-thong-khao-thi/
+Học sinh vào tính năng [Kì Thi]
 
 [GIỮ NGUYÊN] Tính năng Góc Học Sinh.
 
