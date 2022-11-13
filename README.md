@@ -1,4 +1,4 @@
-TỔNG QUAN PHIÊN BẢN 0.0.32 
+TỔNG QUAN PHIÊN BẢN 0.0.33
 
 Tính năng : 
 
@@ -16,6 +16,9 @@ Sửa “Thí Nghiệm Trường Trung Học Cơ Sở Lê Hồng Phong - >Thí n
 [MỚI] Thêm tính năng cho phép học sinh làm kiểm tra/ thi cử 
 Giáo viên truy cập đường liên kết : https://kademy-software.github.io/he-thong-khao-thi/
 Học sinh vào tính năng [Kì Thi]
+
+[MỚI] Thêm phần tiện ích bổ sung 
+ +[Mới] Thêm tiện ích bổ sung 'Quản Lý Danh Sách Học Sinh' giúp khảo thí, giáo viên quản lý danh sách học sinh tuỳ thêm mục đích, có thể tải lên danh scsh từ Excel và tải về danh sách Excel giúp người sử dụng giảm đi thời gian nhập liệu chỉ cần điền vào các trường thông tin hệ thống yêu cầu.
 
 [GIỮ NGUYÊN] Tính năng Góc Học Sinh.
 
