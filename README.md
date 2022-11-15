@@ -1,2 +1,1 @@
-READ ME - >> https://docs.google.com/document/d/1vuvq9l3s7rXNSZGQ9JDuNptGISct5BSXpw77I7_1ZnY/edit?usp=sharing
-
+READ ME - >> https://bit.ly/tin-hoc-tre-thcs-le-hong-phong-tb-ag
