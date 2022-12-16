@@ -12,7 +12,20 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  text-align: center;
+  margin-left: auto; margin-right: auto;
+  
+}
 
+tr:nth-child(even) {
+  background-color: #dddddd;
+  text-align: center;
+  margin-left: auto; margin-right: auto;
+}
 a {
   color: #3498db;
   text-decoration: none;
