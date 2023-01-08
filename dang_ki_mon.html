@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí môn</title>
+    <link href="/assets/css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+<header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+          <div class="logo">
+            <h1><a href="portal.html">LHP Secondary School Academic Portal</a></h1>
+            <p><a href="index.html"><i>Go to default</i></a></p>
+          </div> 
+    
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about" >Tin tức</a></li>  
+              <a href="#" target="_blank">Đăng kí học tự chọn</a>
+              <a href="#" target="_blank">Lịch thi </a>
+              <a href="#" target="_blank">Thời khoá biểu</a>
+              <a href="#" target="_blank">To-do App</a>
+                 
+          </nav>
+    
+        </div>
+</header>
+<section>
+<h2>Danh sách các môn tự chọn khả dụng</h2>
+<p> Chú giải : <br> // : Song song với </p>
+<div class="container">
+    <div class="timetable-img text-center">
+        <img src="img/content/timetable.png" alt="">
+    </div>
+    <div class="table-responsive">
+        <table class="table table-bordered text-center">
+            <thead>
+                <tr class="bg-light-gray">
+                    <th class="text-uppercase">Giáo viên_Môn
+                    </th>
+                    <th class="text-uppercase">Thứ Hai</th>
+                    <th class="text-uppercase">Thứ Ba</th>
+                    <th class="text-uppercase">Thứ Tư</th>
+                    <th class="text-uppercase">Thứ Năm</th>
+                    <th class="text-uppercase">Thứ Sáu</th>
+                    <th class="text-uppercase">Ghi chú</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="align-middle">Ngữ Văn TC                      <br>  Toán TC <br> Tiếng Anh TC</td>
+                    <td>
+                        <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Toán TC</span>
+                    </td>
+                    
+                    <td>
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Toán TC // Văn TC</span> 
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Anh TC // Toán TC</span> 
+                    </td>
+
+                    <td>
+                        <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Toán TC</span>
+                    </td>
+                    <td>
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Văn TC</span>
+                        <span class="bg-sky padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13">Anh TC</span> 
+                    </td>
+                    <td>
+                        <span class="bg-purple padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Văn TC</span>
+                    </td>
+                    <td>
+                            <p></p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="align-middle">Thạch Quốc Huy - Võ <br>Nguyễn Thị Nhung - Đàn, Nhảy </td>
+                    <td>
+                        <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Đàn / Võ / Nhảy </span>
+                        <div class="margin-10px-top font-size14">18:30-20:00</div>
+                    </td>
+                    <td class="bg-light-gray">
+                    </td>
+                    <td>
+                        <span class="bg-yellow padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16  xs-font-size13">Đàn / Võ / Nhảy </span>
+                        <div class="margin-10px-top font-size14">18:30-20:00</div>
+                    </td>
+            </tbody>
+        </table>
+    </div>
+</div>
+</section>
+<p>Học sinh chọn các môn không trùng lặp, có thể bỏ qua nếu không chọn hết.</p>
+<form action="https://formspree.io/f/mrgvgywn" method="post"> 
+    <input type="text" name="Name" placeholder="Họ và tên" required> 
+    <select name="Grade"> 
+        <option>-Chọn khối-</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+    </select>
+    <input type="text" name="Classroom" placeholder="Lớp" required> 
+    <input type="text" name="hs_id" placeholder="Mã số học sinh" required> 
+    <select name="Subject"> 
+        <option>-Chọn môn 1-</option>
+        <option>Ngữ Văn TC  </option>
+        <option>Tiếng Anh TC </option>
+        <option>Toán TC </option>
+        <option>Võ</option>
+        <option>Đàn</option>
+     
+    </select>
+    <select name="Subject"> 
+        <option>-Chọn môn 2-</option>
+        <option>Ngữ Văn TC  </option>
+        <option>Tiếng Anh TC </option>
+        <option>Toán TC </option>
+        <option>Võ</option>
+        <option>Đàn</option>
+      
+    </select>
+    <select name="Subject"> 
+        <option>-Chọn môn 3-</option>
+        <option>Ngữ Văn TC  </option>
+        <option>Tiếng Anh TC </option>
+        <option>Toán TC </option>
+        <option>Võ</option>
+        <option>Đàn</option>
+    </select>
+    <select name="Subject"> 
+        <option>-Chọn môn 4-</option>
+        <option>Ngữ Văn TC  </option>
+        <option>Tiếng Anh TC </option>
+        <option>Toán TC </option>
+        <option>Võ</option>
+        <option>Đàn</option>
+    </select>
+    <select name="Subject"> 
+        <option>-Chọn môn 5-</option>
+        <option>Ngữ Văn TC  </option>
+        <option>Tiếng Anh TC </option>
+        <option>Toán TC </option>
+        <option>Võ</option>
+        <option>Đàn</option>
+    </select>
+    <button type="submit">Gửi</button>
+</form> 
+</body>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</html>
