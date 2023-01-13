@@ -1,16 +1,10 @@
-/**
-* Template Name: Vesperr - v4.9.1
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  
+  
 }
 .bg-light-gray {
   background-color: #f7f7f7;
@@ -129,16 +123,31 @@ a {
 a:hover {
   color: #5faee3;
   text-decoration: none;
+  background: linear-gradient(90deg,#00dbde,#fc00ff); 
+  font-size:40px; 
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
 }
-
+h2{
+  background: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+  font-size:40px; 
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  
 }
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -226,6 +235,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  
 }
 
 .navbar ul {
